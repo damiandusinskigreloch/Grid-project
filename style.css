@@ -9,6 +9,69 @@ html{
     font-family: Helvetica, sans-serif;
 }
 
+.testimonials{
+    max-width: 1440px;
+    margin: 100px 0;
+    padding: 25px;
+}
+
 .card{
-    
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 8px 0 #222;
+    margin-top: 25px;
+}
+
+.card-header{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.card-header img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid purple;
+}
+
+.card-header div{
+    margin-left: 10px;
+}
+
+.card-header div h3{
+    font-size: 1.8rem;
+    font-weight: normal;
+}
+
+.card-header div p{
+    font-size: 1.5rem;
+    font-weight: normal;
+    opacity: 50%;
+}
+
+.card-lead{
+    font-size: 1.6rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.card-quote{
+    font-size: 1.4rem;
+    font-weight: normal;
+    opacity: 50%;
+}
+
+footer{
+    background-color: purple;
+    color: #fff;
+    font-size: 1.4rem;
+    padding: 10px;
+    text-align: center;
+    font-weight: 200;
+}
+
+footer a{
+    color: black;
 }
